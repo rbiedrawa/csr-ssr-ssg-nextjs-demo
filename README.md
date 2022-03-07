@@ -43,7 +43,7 @@ Demo application that compares three different rendering options for React apps.
 2. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 3. Open [http://localhost:3000/cars/2](http://localhost:3000/cars/2) to get supercar detail page.
 4. Disable JavaScript in Chrome Browser (`Inspect -> Settings -> Debugger Disable JavaScript`).
-5. Check page source (Right Click > View Page Source) and find `__next` div class
+5. Check page source (Right Click -> View Page Source) and find `__next` div class
    ```html
    
    <div id="__next" data-reactroot="">
@@ -67,7 +67,7 @@ Demo application that compares three different rendering options for React apps.
 2. Open [http://localhost:3001](http://localhost:3001) with your browser to see the result.
 3. Open [http://localhost:3001/cars/2](http://localhost:3001/cars/2) to get supercar detail page.
 4. Disable JavaScript in Chrome Browser (`Inspect -> Settings -> Debugger Disable JavaScript`).
-5. Check page source (Right Click > View Page Source) and find `__next` div class
+5. Check page source (Right Click -> View Page Source) and find `__next` div class
    ```html
    <div id="__next" data-reactroot="">
        <main class="Home_main__nLjiQ"><h1 class="Home_title__T09hD">Welcome to <a href="/">Supercars</a> Gallery!</h1><br>
