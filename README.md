@@ -1,4 +1,8 @@
-![NextJs](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![NextJs](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)&nbsp;
+![React](https://img.shields.io/badge/react%20-%23F7DF1E.svg?logo=react&logoColor=white&style=for-the-badge&color=darkblue)&nbsp;
+![Javascript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?logo=javascript&logoColor=black&style=for-the-badge&color=F7DF1E)&nbsp;
+![Bootstrap](https://img.shields.io/badge/Bootstrap%20-%23F7DF1E.svg?logo=bootstrap&logoColor=white&style=for-the-badge&color=7044A3)&nbsp;
+![Yarn](https://img.shields.io/badge/Yarn%20-%23F7DF1E.svg?logo=yarn&logoColor=white&style=for-the-badge&color=2C8EBB")&nbsp;
 
 # <center>Poc: Using CSR, SSR, and SSG in NextJS</center>
 
