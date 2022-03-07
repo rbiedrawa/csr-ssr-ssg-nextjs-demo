@@ -6,7 +6,6 @@
 Demo application that compares three different rendering options for React apps.
 </div>
 <br/>
-
 <div align="center">
 <img src="_docs/img/demo.gif">
 </div>
@@ -17,10 +16,6 @@ Demo application that compares three different rendering options for React apps.
 ### Prerequisites:
 
 * [Yarn](https://yarnpkg.com/)
-
-### 📷 What You’ll Build
-
-![demo.gif](./_docs/img/demo.gif)
 
 ### Installation
 
