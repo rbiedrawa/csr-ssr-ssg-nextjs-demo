@@ -4,7 +4,7 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap%20-%23F7DF1E.svg?logo=bootstrap&logoColor=white&style=for-the-badge&color=7044A3)&nbsp;
 ![Yarn](https://img.shields.io/badge/Yarn%20-%23F7DF1E.svg?logo=yarn&logoColor=white&style=for-the-badge&color=2C8EBB)&nbsp;
 
-# <center>Poc: Using CSR, SSR, and SSG in NextJS</center>
+# <center>PoC: Using CSR, SSR and SSG in NextJS</center>
 
 <div align="center">
 Demo application that compares three different rendering options for React apps.
