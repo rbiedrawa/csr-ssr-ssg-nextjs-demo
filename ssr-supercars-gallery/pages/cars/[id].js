@@ -1,19 +1,22 @@
-import { useRouter } from "next/router";
 import axios from "axios";
-import { useQuery } from "react-query";
-import Head from "next/head";
-import { Container, Row, Col } from "react-bootstrap";
+import {Container, Row} from "react-bootstrap";
 
-const fetchCar = async ({queryKey}) => {
-    const [_, id] = queryKey
-    const { data } = await axios.get(`/api/cars?id=${escape(id)}`);
+const fetchCar = async (id) => {
+    const { data } = await axios.get(`http://localhost:3001/api/cars?id=${escape(id)}`);
     return data;
 };
 
-const Car = () => {
-    const router = useRouter();
-    const {data} = useQuery(["cars.byName", router.query.id], fetchCar);
+export async function getServerSideProps(context) {
+    const data = await fetchCar(context.params.id);
+    return {
+        props: {
+            data: data,
+        }, // will be passed to the page component as props
+    }
+}
 
+
+const Car = ({data}) => {
     return (
         <div>
             <Container>

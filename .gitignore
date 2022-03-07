@@ -4,6 +4,9 @@
 *.iml
 /.idea/
 
+# Project
+TODO.md
+
 # dependencies
 /node_modules
 /.pnp
