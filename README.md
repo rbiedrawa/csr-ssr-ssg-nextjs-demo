@@ -41,9 +41,9 @@ Demo application that compares three different rendering options for React apps.
     (cd csr-supercars-gallery && yarn dev)
     ```
 2. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-3. Open [http://localhost:3000/cars/2](http://localhost:3000/cars/2) to get supercar detail page.
+3. Open [http://localhost:3000/cars/2](http://localhost:3000/cars/2) to view details page.
 4. Disable JavaScript in Chrome Browser (`Inspect -> Settings -> Debugger Disable JavaScript`).
-5. Check page source (Right Click -> View Page Source) and find `__next` div class
+5. Check page source (`Right Click -> View Page Source`) and find `__next` div class
    ```html
    
    <div id="__next" data-reactroot="">
@@ -65,9 +65,9 @@ Demo application that compares three different rendering options for React apps.
     (cd ssr-supercars-gallery && yarn dev)
     ```
 2. Open [http://localhost:3001](http://localhost:3001) with your browser to see the result.
-3. Open [http://localhost:3001/cars/2](http://localhost:3001/cars/2) to get supercar detail page.
+3. Open [http://localhost:3001/cars/2](http://localhost:3001/cars/2) to view details page.
 4. Disable JavaScript in Chrome Browser (`Inspect -> Settings -> Debugger Disable JavaScript`).
-5. Check page source (Right Click -> View Page Source) and find `__next` div class
+5. Check page source (`Right Click -> View Page Source`) and find `__next` div class
    ```html
    <div id="__next" data-reactroot="">
        <main class="Home_main__nLjiQ"><h1 class="Home_title__T09hD">Welcome to <a href="/">Supercars</a> Gallery!</h1><br>
@@ -91,13 +91,13 @@ Demo application that compares three different rendering options for React apps.
     (cd ssg-supercars-gallery && yarn dev)
     ```
 2. Open [http://localhost:3002](http://localhost:3002) with your browser to see the result.
-3. Open [http://localhost:3002/cars/2](http://localhost:3002/cars/2) to get car detail page.
+3. Open [http://localhost:3002/cars/2](http://localhost:3002/cars/2) to view details page.
 4. Close the app.
 5. Build the application
    ```bash
    (cd ssg-supercars-gallery && yarn build)
    ```
-6. Notice that next.js generated couple of new sites under `/cars/[id]` path. Example output below:
+6. Notice that Next.js generated a couple of new sites under `/cars/[id]` path. Example output below:
    ```shell
    Page                                       Size     First Load JS
    ┌ ○ /                                      10.4 kB        93.8 kB
@@ -128,7 +128,7 @@ Demo application that compares three different rendering options for React apps.
    # ./ssg-supercars-gallery/.next/server/pages/cars/9.html
    # ./ssg-supercars-gallery/.next/server/pages/cars/9.json
    ```
-8. Display content of `9.html` and `9.json` files.
+8. Display the content of `9.html` and `9.json` files.
    ```shell
    cat  ./ssg-supercars-gallery/.next/server/pages/cars/9.html
    cat ./ssg-supercars-gallery/.next/server/pages/cars/9.json 
