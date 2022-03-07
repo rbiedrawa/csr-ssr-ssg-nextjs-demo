@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "name": "Toyota",
+    "tags": [
+      "white",
+      "toyota"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Chevrolet",
+    "tags": [
+      "chevrolet",
+      "orange"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Nissan",
+    "tags": [
+      "dark",
+      "nissan"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Mercedes",
+    "tags": [
+      "mercedes",
+      "amg",
+      "silver"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Lambo",
+    "tags": [
+      "lamborghini",
+      "dark"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ferrari",
+    "tags": [
+      "ferrari",
+      "green"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Alfa Romeo",
+    "tags": [
+      "red",
+      "alfa romeo"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Toyota GR SUPRA",
+    "tags": [
+      "silver",
+      "toyota"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Bmw i8",
+    "tags": [
+      "bmw",
+      "white"
+    ]
+  }
+]
