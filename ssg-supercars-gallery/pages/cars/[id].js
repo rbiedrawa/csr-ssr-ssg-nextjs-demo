@@ -1,20 +1,26 @@
-import axios from "axios";
 import {Container, Row} from "react-bootstrap";
+import cars from "../../cars.json";
 
-const fetchCar = async (id) => {
-    const { data } = await axios.get(`http://localhost:3002/api/cars?id=${escape(id)}`);
-    return data;
-};
-
-export async function getServerSideProps(context) {
-    const data = await fetchCar(context.params.id);
+export async function getStaticPaths() {
     return {
-        props: {
-            data: data,
-        }, // will be passed to the page component as props
-    }
+        paths: cars.map(car => ({
+            params: {
+                id: car.id.toString(),
+            },
+        })),
+        fallback: false
+    };
 }
 
+export async function getStaticProps(context) {
+    return {
+        props: {
+            data: cars.filter(
+                ({ id }) => id === parseInt(context.params.id)
+            )[0],
+        },
+    };
+}
 
 const Car = ({data}) => {
     return (
