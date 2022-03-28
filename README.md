@@ -106,7 +106,7 @@ Demo application that compares three different rendering options for React apps.
    ├ λ /api/cars                              0 B            83.4 kB
    ├ λ /api/search                            0 B            83.4 kB
    └ ● /cars/[id] (756 ms)                    1.15 kB        84.6 kB 
-       ├ /cars/1  ## 👈 Our Server Side Generated pages😉
+       ├ /cars/1  ## 👈 Our Static Site Generated pages😉
        ├ /cars/2 
        ├ /cars/3
        └ [+6 more paths]
