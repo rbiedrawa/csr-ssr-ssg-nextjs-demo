@@ -149,3 +149,6 @@ For further reference, please consider the following sections:
 * [Nextjs - getStaticProps](https://nextjs.org/docs/basic-features/data-fetching/get-static-props)
 * [Visual Explanation and Comparison of CSR, SSR, SSG and ISR](https://dev.to/pahanperera/visual-explanation-and-comparison-of-csr-ssr-ssg-and-isr-34ea)
 
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
